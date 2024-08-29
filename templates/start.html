@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M&M BUteam</title>
+
+  <link rel="preload" href="{{url_for('static', filename='c9a5bc6a7c948fb0-s.p.woff2')}}" as="font" crossorigin="" type="font/woff2">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/M&M-backup.css')}}">
+
+
+
+
+</head>
+<body>
+   
+ 
+    <nav class="navbar navbar-expand-md navbar-expand-custom">
+      <div class="container-fluid m-auto">
+        <a class="navbar-brand" href="{{url_for('home')}}"><img src="{{url_for('static', filename='image/logo.png')}}" alt="image"></a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <div class="xicon py-1">✖</div>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active underline" aria-current="page" href="{{url_for('home')}}">Start</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('innenputz')}}">Innenputz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('aussenputz')}}">Aussenputz</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('klinkerriemchen')}}">Klinkerriemchen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Kontakt" href="{{url_for('kontakt')}}">Kontakt</a>
+          </li>
+            
+          </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main col-lg-12">
+      <div class="subtitle">
+        <div class="subhr">
+          <h2 class="text-[1.8rem] font-[700] mb-4">Ihr Partner für hochwertige Bausanierungen</h2>
+          <p class="text-[1.1rem] font-[700] mb-3">Spezialisiert auf Fassaden, Innen- und Außenputz sowie Klinkerriemchen</p>
+          </div>
+      </div>
+      <div class="button-mher">
+        <div class="button-mher-button">
+          <a href="#section1"><button>Mehr Erfahren</button></a>
+        </div>
+      </div>
+
+      <div class="house px-2 py-6 flex justify-center max-h-[700px]"><img class="img-fluid" alt="hero" loading="lazy" width="1202" height="642" decoding="async" data-nimg="1" class="h-full object-contain" src="../static/image/house..png" style="color: transparent;">
+      </div>
+    
+
+    
+
+    <div class="my-[50px] flex flex-col w-auto sectiono h-auto " id="section1">
+
+        <h2 class="flex justify-center mb-4 text-[1.6rem] font-[800]">Über Uns</h2>
+      <div class="flex flex-col gap-4 text-center font-[500]"><p>Seit 2022 sind wir Ihr verlässlicher Partner für hochwertige Bausanierungen und Fassadenarbeiten. Unsere Expertise umfasst zudem thermische Sanierungen, Malerarbeiten und die Erstellung von Wärmedämmfassaden. Mit Leidenschaft und Präzision verwandeln wir Ihre Bauprojekte in wahre Meisterwerke.</p><p>Seit 2022 sind wir Ihr verlässlicher Partner für hochwertige Bausanierungen und Fassadenarbeiten. Unsere Expertise umfasst zudem thermische Sanierungen, Malerarbeiten und die Erstellung von Wärmedämmfassaden. Mit Leidenschaft und Präzision verwandeln wir Ihre Bauprojekte in wahre Meisterwerke. Wir setzen auf höchste Qualität, modernste Techniken und erstklassige Materialien, um sicherzustellen, dass Ihre Anforderungen nicht nur erfüllt, sondern übertroffen werden. Vertrauen Sie auf M&amp;M Bauteam – Ihr Spezialist für nachhaltige und ästhetische Lösungen im Bauwesen.</p>
+      </div>
+    </div>
+
+    <div class="pic col-lg-12">
+      <div class="pic-h text-center">
+        <h5>Unsere Lieferanten & Partner in Zusammenarbeit</h5>
+      </div>
+
+      <div class="picpic">
+        <div><img src="{{url_for('static', filename='image/partner.8fd9e78f.jpeg')}}" alt="image"></div>
+        <div><img src="{{url_for('static', filename='image/partner1.jpg')}}" alt="image"></div>
+        <div><img src="{{url_for('static', filename='image/Brillux.png')}}" alt="image"></div>
+        <div><img src="{{url_for('static', filename='image/capital.png')}}" alt="image"></div>
+        <div><img src="{{url_for('static', filename='image/kuaf.png')}}" alt="image"></div>
+        
+      </div>
+    </div>
+
+    <div>
+      <h4 class="flex justify-center mt-5  text-[1.6rem] font-[800] wir ">Was wir für Sie tun können</h4>
+
+      <div class="gr">
+        <div class="was">
+          <a href="{{url_for('innenputz')}}" class="bg-[#F5F5F5] max-md:max-w-full p-4 flex flex-col items-start gap-3"><img alt="Perfekter Innenputz" loading="lazy" width="100%" height="251" decoding="async" data-nimg="1" class="h-[220px] w-full object-cover" src="{{url_for('static', filename='image/weap.png')}}" style="color: transparent;"><h3 class="font-[800] text-[1.1rem]">Perfekter Innenputz</h3><p class="text-[#001D31] font-[500] text-[16px]">Unsere Innenputzarbeiten bieten Ihnen glatte und langlebige Oberflächen, die Ihre Wohnräume verschönern und den Wert Ihrer Immobilie steigern. Mit hochwertigen Materialien und präziser Verarbeitung schaffen wir eine gemütliche Wohnatmosphäre.</p></a>
+        </div>
+        <div class="was bg-[#F5F5F5]">
+          <a href="{{url_for('aussenputz')}}" class="bg-[#F5F5F5] max-md:max-w-full p-3 flex flex-col items-start gap-3"><img alt="Perfekter Innenputz" loading="lazy" width="100%" height="251" decoding="async" data-nimg="1" class="h-[220px] w-full object-cover" src="{{url_for('static', filename='image/paintingoutside.png')}}" style="color: transparent;"><h3 class="font-[800] text-[1.1rem]">Hochwertiger Außenputz</h3><p class="text-[#001D31] font-[500] text-[16px] pgrm">
+            Unser Außenputz schützt Ihre Fassade vor Witterungseinflüssen und sorgt gleichzeitig für eine ansprechende Optik. Durch den Einsatz moderner Techniken und Materialien gewährleisten wir eine langlebige und wetterbeständige Verkleidung.</p></a>
+        </div>
+        <div class="was">
+          <a href="{{url_for('klinkerriemchen')}}" class="bg-[#F5F5F5] max-md:max-w-full p-4 flex flex-col items-start gap-3">
+            <img alt="Perfekter Innenputz" loading="lazy" width="100%" height="251" decoding="async" data-nimg="1" class="h-[220px] w-full object-cover" src="{{url_for('static', filename='image/bricks.png')}}" style="color: transparent;">
+
+            <h3 class="font-[700] text-[1.1rem]">Perfekter Innenputz</h3>
+
+            <p class="text-[#001D31] font-[500] text-[16px]">Unsere Innenputzarbeiten bieten Ihnen glatte und langlebige Oberflächen, die Ihre Wohnräume verschönern und den Wert Ihrer Immobilie steigern. Mit hochwertigen Materialien und präziser Verarbeitung schaffen wir eine gemütliche Wohnatmosphäre.</p></a>
+        </div>
+      </div>
+
+      <div class="map-div flex  flex-col w-full">
+        <h3 class="mb-4">Unsere Lage</h3>
+        <p>Besuchen Sie uns in unserem Büro</p>
+        <div class="map">
+          <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.8479523062015!2d13.448969575665815!3d52.44566904173139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a845892f58fff3%3A0x58995783cb367a4b!2sParchimer%20Allee%2C%2012359%20Berlin-Bezirk%20Neuk%C3%B6lln%2C%20Germany!5e0!3m2!1sen!2s!4v1722183571703!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+   
+
+      <div class="bgcolor">
+        <footer class="bg-[#F5F5F5] mt-5">
+          <div class="input-div  ">
+            <h5 class="md-font sm-font">EINFACH DAS FORMULAR AUSFÜLLEN UND WIR RUFEN SIE ZURÜCK</h5>
+            <form action="#">
+              <ul>
+                <li>
+                  <input type="text" placeholder="Name" required>
+                </li>
+                <li>
+                  <input type="text" placeholder="Email" required>
+                </li>
+                  <input type="text" placeholder="Telephon" required>
+                <li>
+                  <textarea placeholder="Mitteilung" required></textarea>
+                </li>
+                <li>
+                  <button type="submit">ABSENDEN</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="pht">
+              <p >KONTAKTDATEN</p>
+            </div>
+            <div>
+              <div>
+                <p class="ph">Address</p>
+                <p class="p">
+                  Parchimer Allee 16
+                </p>
+                <p class="p">12359 Berlin</p>
+              </div>
+              <div>
+                <p class="ph">Phone Number<p>
+                <p class="p">Office: 030 966 155 93</p>
+                <p class="p">Mobile: 0176 649 856 89</p>
+              </div>
+              <div>
+                <p class="ph">Email</p>
+                <p class="p">info@m-m-bauteam.de</p>
+              </div>
+    
+            </div>
+          </div>
+        </footer>
+  
+      </div>
+
+
+   <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+</body>
+</html>
+
+

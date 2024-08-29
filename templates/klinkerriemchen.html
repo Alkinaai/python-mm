@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>klinkerriemchen</title>
+
+<link rel="stylesheet" href="../font/Rubik-VariableFont_wght.ttf">
+<link rel="stylesheet" href="../font/Roboto/Roboto-Black.ttf">
+<link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/M&M-backup.css')}}">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand"  href="{{url_for('home')}}"><img src="{{url_for('static', filename='image/logo.png')}}" alt=""></a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <div class="xicon py-1">✖</div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{url_for('home')}}">Start</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('innenputz')}}">Innenputz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('aussenputz')}}">Aussenputz</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline" href="{{url_for('klinkerriemchen')}}">Klinkerriemchen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Kontakt" href="{{url_for('kontakt')}}">Kontakt</a>
+            </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+      
+    
+    <div class="h-[150px] mt-77 flex flex-col justify-center items-center text-[#181C20] text-center mb-5 kel ">
+        <h1 class="text-[1.8rem] h1-title font-[500] ls-0 leading-[1] mt-3 ">Stilvolle Klinkerriemchen für Ihr Zuhause</h1>
+        <p class="par mb-5 mt-3 text-[1.1rem] font-[600]">Unsere Klinkerriemchen bieten die perfekte Kombination aus traditioneller Ästhetik und moderner Funktionalität. Sie verleihen Ihrem Gebäude einen einzigartigen Charme und sorgen gleichzeitig für eine robuste und pflegeleichte Oberfläche. Entdecken Sie die vielfältigen Möglichkeiten, die unsere Klinkerriemchen bieten.</p>
+    </div>
+    
+
+    <div class="pl-10 prof mb-5 pl-10">
+
+        <div class="info">
+            <h4 class="text-[1.2rem] font-[700] mb-4">Vorteile von Klinkerriemchen</h4>
+            <p class="font-[500] text-[1rem]">Klinkerriemchen sind nicht nur optisch ansprechend, sondern bieten auch zahlreiche praktische Vorteile. Sie sind langlebig und weisen eine hohe Beständigkeit gegen Witterungseinflüsse und mechanische Belastungen auf. Zudem sind sie wartungsarm, da sie einfach zu reinigen und zu pflegen sind. Klinkerriemchen tragen auch zur Energieeffizienz bei, da sie verbesserte Wärmedämmeigenschaften bieten. Ihre Vielseitigkeit macht sie sowohl für Innen- als auch für Außenbereiche geeignet.</p>
+        </div>
+
+        <div class="info-pic">
+            <img class="" src="{{url_for('static', filename='image/klinkerriemchen.b731027d.png')}}" alt="">
+
+        </div>
+    </div>
+
+    <div class="pr-10 prof-rev rev-mb2">
+        <div class="info-pic-rev">
+            <img class="" src="{{url_for('static', filename='image/klinkerriemchen1.0bdc8226.png')}}" alt="">
+        </div>
+        <div class="info">
+            <h4 class="text-[1.2rem] font-[700] mb-4">Anwendungen und Stile</h4>
+            <p class="font-[500] text-[1rem]">Unsere Klinkerriemchen sind vielseitig einsetzbar und in einer Vielzahl von Farben, Texturen und Formaten erhältlich. Sie eignen sich ideal für Fassadenverkleidungen, um Ihrer Gebäudefassade eine elegante und zeitlose Optik zu verleihen. Auch in der Innenraumgestaltung schaffen sie einzigartige Akzente. Perfekt sind sie auch für die Gestaltung von auffälligen und attraktiven Akzentwänden.</p>
+        </div>
+    </div>
+
+    <div class="pl-10 prof mt-5">
+        <div class="info mt-5">
+            <h4 class="text-[1.2rem] font-[700] mb-4">Effiziente Wärmedämmung</h4>
+            <p class="font-[500] text-[1rem]">Eine effektive Wärmedämmung ist entscheidend für die Energieeffizienz Ihres Gebäudes. Unsere Wärmedämmungslösungen helfen, Heiz- und Kühlkosten zu senken und gleichzeitig den Wohnkomfort zu erhöhen. Wir verwenden modernste Dämmmaterialien, um sicherzustellen, dass Ihr Gebäude den höchsten Standards entspricht.</p>
+
+        </div>
+        <div class="info-pic">
+            <img class="mt-5" src="{{url_for('static', filename='image/klinkerriemchen2.1f1ff6af.png')}}" alt="">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center text-center text-[#001D31]" style="margin-top:100px;"><h2 class="text-[1.7rem] font-[800]">Unsere Projekte</h2>
+        <p class="text-[1rem] w-99">Sehen Sie sich einige unserer abgeschlossenen Projekte an, um sich inspirieren zu lassen. Unsere Klinkerriemchen wurden in einer Vielzahl von Anwendungen erfolgreich eingesetzt und haben immer wieder beeindruckende Ergebnisse geliefert.</p></div>
+
+
+    <div class="grid-div py-4 grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-3">
+        <div class="picone ">
+            <img class="img-fluid"  src="{{url_for('static', filename='image/kel1.jpeg')}}" alt="">
+        </div>
+        <div class="pictwo  max-w-full">
+            <img height="100%" src="{{url_for('static', filename='image/kel2.png')}}" alt="">
+        </div>
+        <div class="picthree img-fluid">
+            <img src="{{url_for('static', filename='image/kel3')}}.jpeg" alt="">
+        </div>
+        <div class="picfour img-fluid">
+            <img src="{{url_for('static', filename='image/kel4')}}.jpeg" alt="">
+        </div>
+        <div class="picfive">
+            <img src="{{url_for('static', filename='image/kel.jpeg')}}" alt="image">
+        </div>
+        <div class="picsix">
+            <img src="{{url_for('static', filename='image/kel5.jpeg')}}" alt="">
+        </div>
+    </div>
+
+            
+    
+    <div class="bgcolor">
+      <footer class="bg-[#F5F5F5] mt-5">
+        <div class="input-div  ">
+          <h5 class="md-font sm-font">EINFACH DAS FORMULAR AUSFÜLLEN UND WIR RUFEN SIE ZURÜCK</h5>
+          <form action="#">
+            <ul>
+              <li>
+                <input type="text" placeholder="Name" required>
+              </li>
+              <li>
+                <input type="text" placeholder="Email" required>
+              </li>
+                <input type="text" placeholder="Telephon" required>
+              <li>
+                <textarea placeholder="Mitteilung" required></textarea>
+              </li>
+              <li>
+                <button type="submit">ABSENDEN</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="pht">
+            <p >KONTAKTDATEN</p>
+          </div>
+          <div>
+            <div>
+              <p class="ph">Address</p>
+              <p class="p">
+                Parchimer Allee 16
+              </p>
+              <p class="p">12359 Berlin</p>
+            </div>
+            <div>
+              <p class="ph">Phone Number<p>
+              <p class="p">Office: 030 966 155 93</p>
+              <p class="p">Mobile: 0176 649 856 89</p>
+            </div>
+            <div>
+              <p class="ph">Email</p>
+              <p class="p">info@m-m-bauteam.de</p>
+            </div>
+  
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+</body>
+</html>

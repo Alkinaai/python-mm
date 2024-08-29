@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aussenputz</title>
+
+<link rel="stylesheet" href="../font/Rubik-VariableFont_wght.ttf">
+<link rel="stylesheet" href="../font/Roboto/Roboto-Black.ttf">
+<link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/M&M-backup.css')}}">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand"  href="{{url_for('home')}}"><img src="{{url_for('static', filename='image/logo.png')}}" alt=""></a>
+           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <div class="xicon py-1">✖</div>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{url_for('home')}}">Start</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('innenputz')}}">Innenputz</a>
+              </li>
+              <li class="nav-item underline">
+                <a class="nav-link" href="{{url_for('aussenputz')}}">Aussenputz</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('klinkerriemchen')}}">Klinkerriemchen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Kontakt" href="{{url_for('kontakt')}}">Kontakt</a>
+            </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+      
+    
+    <div class="toptitle h-[150px] flex flex-col justify-center items-center mt-70 text-[#181C20] text-center mb-5">
+        <h1 class="  leading-[1] mt-3 ho">Hochwertiger Außenputz für jedes Projekt</h1>
+        <div class="unser">
+          <p class=" mb-5 mt-5 ">Unsere Außenputzarbeiten bieten die perfekte Lösung für alle Anforderungen und Wünsche. Egal, ob Standard- oder Spezialanforderungen – wir haben die Expertise und die Ressourcen, um jede Herausforderung zu meistern. Lassen Sie sich von unserer Qualität und unserem Engagement überzeugen.</p>
+        </div>
+    </div>
+    
+
+    <div class=" prof rev mb-5">
+
+        <div class="info">
+            <h4 class="text-[1.2rem] font-[700] mb-4">Standard Außenputz</h4>
+            <p class="font-[500] text-[1rem]">Wir bieten umfassende Dienstleistungen im Bereich Außenputz, um sicherzustellen, dass Ihre Fassade nicht nur gut aussieht, sondern auch optimal geschützt ist. Unsere Experten verwenden hochwertige Materialien und fortschrittliche Techniken, um eine langlebige und wetterfeste Oberfläche zu schaffen.</p>
+        </div>
+
+        <div class="info-pic">
+            <img class="" src="{{url_for('static', filename='image/aussenputz.03bd74e7.png')}}" alt="">
+
+        </div>
+    </div>
+
+    <div class="pl-10 prof-rev rev-mb ">
+        <div class="info-pic-rev">
+            <img src="{{url_for('static', filename='image/aussenputz1.54817e8a.png')}}" alt="">
+        </div>
+        <div class="info">
+            <h4 class="text-[1.2rem] font-[700] mb-4">Individuelle Außenputzlösungen</h4>
+            <p class="font-[500] text-[1rem]">Ihre Bedürfnisse sind einzigartig, und das sollten auch Ihre Außenputzlösungen sein. Wir arbeiten eng mit Ihnen zusammen, um maßgeschneiderte Lösungen zu entwickeln, die genau Ihren Vorstellungen entsprechen. Von speziellen Texturen bis hin zu einzigartigen Designs – wir setzen Ihre Vision um.</p>
+        </div>
+    </div>
+
+    <div class="pl-10 prof mt-5 mt-0
+    ">
+        <div class="info mt-5">
+            <h4 class="text-[1.2rem] font-[700] mb-4">Effiziente Wärmedämmung</h4>
+            <p class="font-[500] text-[1rem]">Eine effektive Wärmedämmung ist entscheidend für die Energieeffizienz Ihres Gebäudes. Unsere Wärmedämmungslösungen helfen, Heiz- und Kühlkosten zu senken und gleichzeitig den Wohnkomfort zu erhöhen. Wir verwenden modernste Dämmmaterialien, um sicherzustellen, dass Ihr Gebäude den höchsten Standards entspricht.</p>
+
+        </div>
+        <div class="info-pic ">
+            <img class="mt-5" style="margin-top:0;" src="{{url_for('static', filename='image/aussenputz2.5df21320.png')}}" alt="">
+        </div>
+    </div>
+    
+    <div class="flex uns flex-col mt-5 pt-5 justify-center text-center text-[#001D31]"><h2 class="text-[1.7rem] font-[800]">Unsere Projekte</h2>
+      <p class="text-[1rem font-[500]">Lassen Sie sich von unseren abgeschlossenen Projekten inspirieren. Jede unserer Arbeiten spiegelt unser Engagement für Qualität und Kundenzufriedenheit wider. Schauen Sie sich an, wie wir anderen Kunden geholfen haben, ihre Visionen zu verwirklichen.</p></div>
+
+    <div class="grid-div py-4 grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-4">
+        <div class="picone ">
+            <img class="img-fluid"  src="{{url_for('static', filename='image/gallery.9ccba7a6.jpeg')}}" alt="">
+        </div>
+        <div class="pictwo  max-w-full">
+            <img height="100%" src="{{url_for('static', filename='image/gallery1.3fb631a1.jpeg')}}" alt="">
+        </div>
+        <div class="picthree img-fluid">
+            <img src="{{url_for('static', filename='image/gallery2.2dd7e0cd.jpeg')}}" alt="">
+        </div>
+        <div class="picfour img-fluid">
+            <img src="{{url_for('static', filename='image/gallery3.45272093.jpeg')}}" alt="">
+        </div>
+        <div class="picfive">
+            <img src="{{url_for('static', filename='image/gallery4.a306b6a1.png')}}" alt="image">
+        </div>
+        <div class="picsix">
+            <img src="{{url_for('static', filename='image/gallery5.8ced5170.jpeg')}}" alt="">
+        </div>
+    </div>
+   
+    
+   
+    <div class="bgcolor">
+      <footer class="bg-[#F5F5F5] mt-5">
+        <div class="input-div  ">
+          <h5 class="md-font sm-font">EINFACH DAS FORMULAR AUSFÜLLEN UND WIR RUFEN SIE ZURÜCK</h5>
+          <form action="#">
+            <ul>
+              <li>
+                <input type="text" placeholder="Name" required>
+              </li>
+              <li>
+                <input type="text" placeholder="Email" required>
+              </li>
+                <input type="text" placeholder="Telephon" required>
+              <li>
+                <textarea placeholder="Mitteilung" required></textarea>
+              </li>
+              <li>
+                <button type="submit">ABSENDEN</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="pht">
+            <p >KONTAKTDATEN</p>
+          </div>
+          <div>
+            <div>
+              <p class="ph">Address</p>
+              <p class="p">
+                Parchimer Allee 16
+              </p>
+              <p class="p">12359 Berlin</p>
+            </div>
+            <div>
+              <p class="ph">Phone Number<p>
+              <p class="p">Office: 030 966 155 93</p>
+              <p class="p">Mobile: 0176 649 856 89</p>
+            </div>
+            <div>
+              <p class="ph">Email</p>
+              <p class="p">info@m-m-bauteam.de</p>
+            </div>
+  
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+
+
+    <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+</body>
+</html>

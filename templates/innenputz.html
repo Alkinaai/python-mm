@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innenputz</title>
+
+<link rel="stylesheet" href="../font/Rubik-VariableFont_wght.ttf">
+<link rel="stylesheet" href="../font/Roboto/Roboto-Black.ttf">
+<link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/M&M-backup.css')}}">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand"  href="{{url_for('home')}}"><img src="{{url_for('static', filename='image/logo.png')}}" alt=""></a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <div class="xicon py-1">✖</div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{url_for('home')}}">Start</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link underline" href="{{url_for('innenputz')}}">Innenputz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('aussenputz')}}">Aussenputz</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('klinkerriemchen')}}">Klinkerriemchen</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link Kontakt" href="{{url_for('kontakt')}}">Kontakt</a>
+            </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+      
+    
+            <div class="h-[150px] innp flex flex-col justify-center items-center text-[#181C20] text-center mb-5">
+                <h1 class="font-[600] leading-[1]">Professioneller Innenputz für Ihr Zuhause</h1>
+                <p class=" fs-24 fw-6 mb-5 mt-0 text-[1.1rem] font-[600]">Perfekte Oberflächen für eine gemütliche Wohnatmosphäre</p>
+            </div>
+            <div class="text-center ser mb-5">
+                <p class="font-34">Servicedetails</p>
+            </div>
+      
+            <div class="prof mb-5">
+
+                <div class="info">
+                    <h4 class="text-[1.2rem] font-[700] mb-4">Professioneller Malerservice</h4>
+                    <p class="font-[500] text-[1rem]">Unsere Malerarbeiten bieten Ihnen eine erstklassige Oberflächenveredelung, die nicht nur ästhetisch ansprechend ist, sondern auch langlebig und widerstandsfähig gegen alltägliche Beanspruchungen. Wir verwenden hochwertige Farben und modernste Techniken, um sicherzustellen, dass Ihre Wände strahlen und Ihren Wohnraum verschönern. Egal, ob es sich um einen neuen Anstrich oder um eine komplette Neugestaltung handelt, unser erfahrenes Team liefert Ihnen ein Ergebnis, das Ihre Erwartungen übertrifft.</p>
+                </div>
+
+                <div class="info-pic">
+                    <img class="" src="{{url_for('static', filename='image/services.e2978576.png')}}" alt="">
+                    
+
+                </div>
+            </div>
+
+            <div class="prof-rev">
+                <div class="info-pic-rev">
+                    <img src="{{url_for('static', filename='image/services1.85f1c56f.png')}}" alt="">
+                </div>
+                <div class="info">
+                    <h4 class="text-[1.2rem] font-[700] mb-4">Perfekte Oberflächen mit hochwertigem Spachtel</h4>
+                    <p class="font-[500] text-[1rem]">Unsere Spachtelarbeiten gewährleisten glatte und makellose Oberflächen, die als perfekte Basis für jeden Anstrich dienen. Durch den Einsatz von hochwertigen Spachtelmassen und präziser Verarbeitung füllen wir Risse und Unebenheiten, um eine ebene und gleichmäßige Oberfläche zu schaffen. Diese sorgfältige Vorbereitung sorgt dafür, dass Ihre Wände nicht nur gut aussehen, sondern auch langlebig und beständig bleiben.</p>
+                </div>
+            </div>
+
+            <div class="prof">
+                <div class="info">
+                    <h4 class="text-[1.2rem] font-[700]">Hochwertiger Innenputz für perfekte Wände</h4>
+                    <p class="font-[500] text-[1rem]">Unser Innenputzservice bietet Ihnen robuste und glatte Wände, die den Grundstein für jeden hochwertigen Innenraum legen. Mit präzisen Techniken und hochwertigen Materialien sorgen wir dafür, dass Ihre Wände eben, stark und bereit für weitere Veredelungen sind. Unser erfahrenes Team stellt sicher, dass jeder Quadratmeter perfekt ausgeführt wird, um sowohl funktionale als auch ästhetische Anforderungen zu erfüllen.</p>
+    
+                </div>
+                <div class="info-pic">
+                    <img class="" src="{{url_for('static', filename='image/services2.e37a30ee.png')}}" alt="">
+                </div>
+            </div> 
+
+            
+   
+            <div class="bgcolor">
+              <footer class="bg-[#F5F5F5] mt-5">
+                <div class="input-div  ">
+                  <h5 class="md-font sm-font">EINFACH DAS FORMULAR AUSFÜLLEN UND WIR RUFEN SIE ZURÜCK</h5>
+                  <form action="#">
+                    <ul>
+                      <li>
+                        <input type="text" placeholder="Name" required>
+                      </li>
+                      <li>
+                        <input type="text" placeholder="Email" required>
+                      </li>
+                        <input type="text" placeholder="Telephon" required>
+                      <li>
+                        <textarea placeholder="Mitteilung" required></textarea>
+                      </li>
+                      <li>
+                        <button type="submit">ABSENDEN</button>
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+                <div class="contact-info">
+                  <div class="pht">
+                    <p >KONTAKTDATEN</p>
+                  </div>
+                  <div>
+                    <div>
+                      <p class="ph">Address</p>
+                      <p class="p">
+                        Parchimer Allee 16
+                      </p>
+                      <p class="p">12359 Berlin</p>
+                    </div>
+                    <div>
+                      <p class="ph">Phone Number<p>
+                      <p class="p">Office: 030 966 155 93</p>
+                      <p class="p">Mobile: 0176 649 856 89</p>
+                    </div>
+                    <div>
+                      <p class="ph">Email</p>
+                      <p class="p">info@m-m-bauteam.de</p>
+                    </div>
+          
+                  </div>
+                </div>
+              </footer>
+        
+            </div>
+      
+
+
+          <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+</body>
+
+</html>
